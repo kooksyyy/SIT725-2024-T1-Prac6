@@ -1,0 +1,23 @@
+{
+  "name": "sit725-2024-t1-prac3",
+  "version": "1.0.0",
+  "description": "SIT725 Prac 3",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kooksyyy/SIT725-2024-T1-Prac3.git"
+  },
+  "author": "Krizza Lou Isidro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kooksyyy/SIT725-2024-T1-Prac3/issues"
+  },
+  "homepage": "https://github.com/kooksyyy/SIT725-2024-T1-Prac3#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
