@@ -51,9 +51,9 @@ function postCat(cat, callback) {
   collection.insertOne(cat, (err, result) => {
     if (err) {
       console.error(err);
-      callback(err, null); // Pass error to callback
+      callback(err, null); 
     } else {
-      callback(null, result); // Pass result to callback
+      callback(null, result); 
     }
   });
 }
@@ -62,9 +62,9 @@ function getAllCats(callback) {
   collection.find({}).toArray((err, result) => {
     if (err) {
       console.error(err);
-      callback(err, null); // Pass error to callback
+      callback(err, null); 
     } else {
-      callback(null, result); // Pass result to callback
+      callback(null, result); 
     }
   });
 }
