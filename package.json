@@ -1,7 +1,7 @@
 {
-  "name": "sit725-2024-t1-prac3",
+  "name": "sit725-2024-t1-prac4",
   "version": "1.0.0",
-  "description": "SIT725 Prac 3",
+  "description": "SIT725 Prac 4",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,15 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kooksyyy/SIT725-2024-T1-Prac3.git"
+    "url": "git+https://github.com/kooksyyy/SIT725-2024-T1-Prac4.git"
   },
   "author": "Krizza Lou Isidro",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kooksyyy/SIT725-2024-T1-Prac3/issues"
+    "url": "https://github.com/kooksyyy/SIT725-2024-T1-Prac4/issues"
   },
-  "homepage": "https://github.com/kooksyyy/SIT725-2024-T1-Prac3#readme",
+  "homepage": "https://github.com/kooksyyy/SIT725-2024-T1-Prac4#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "monodb": "^1.5.1"
   }
 }
